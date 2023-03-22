@@ -1,0 +1,8 @@
+healthLevel =
+10
+damageLevel =
+10
+defenceLevel =
+10
+energyLevel =
+1

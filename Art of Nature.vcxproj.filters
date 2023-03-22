@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="背包">
+      <UniqueIdentifier>{e6cf876e-b938-4aae-914c-ebe57472734b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="玩家">
+      <UniqueIdentifier>{84431e18-364e-4802-bfc5-75943760b4c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="功能性">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="效果">
+      <UniqueIdentifier>{cd4da816-218c-4dd2-90bf-e2357817bfcb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="敌人">
+      <UniqueIdentifier>{b0441e5d-70c8-490a-a386-1ee786e7b6d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="核心（技能）">
+      <UniqueIdentifier>{dd3be6c8-1ee7-46fd-a344-878adc481666}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="敌方技能">
+      <UniqueIdentifier>{dd63ba81-67b5-4402-a5e9-3f87fe201fb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="精英怪/BOSS">
+      <UniqueIdentifier>{89865037-9d2d-4ba9-ad20-df36dedc6301}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="关卡">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="关卡\敌人预设">
+      <UniqueIdentifier>{759d736e-6433-410c-85ac-02d94e1f87ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="关卡\关卡预设">
+      <UniqueIdentifier>{2e30af8e-bcdd-4e6f-a70e-3dc8785b7b59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="关卡\战斗">
+      <UniqueIdentifier>{62fed0db-4be8-4d50-bda6-a3f2ff2383cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="关卡\事件">
+      <UniqueIdentifier>{d2d04c7b-3590-400a-991e-3beabae403fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="关卡\事件\Bussiness">
+      <UniqueIdentifier>{6aa0fe10-fabe-4fad-855f-dd91fcd04b70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="关卡\关卡预设\Level1_1">
+      <UniqueIdentifier>{550c7975-f0e3-4b78-96de-63fea6fe8e3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="关卡\关卡预设\Level1_2">
+      <UniqueIdentifier>{ee60a653-4ac8-4012-9146-d8e91b3e1eb1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TotalHead.h">
+      <Filter>功能性</Filter>
+    </ClInclude>
+    <ClInclude Include="功能性函数原型.h">
+      <Filter>功能性</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>玩家</Filter>
+    </ClInclude>
+    <ClInclude Include="Backpack.h">
+      <Filter>背包</Filter>
+    </ClInclude>
+    <ClInclude Include="Buff.h">
+      <Filter>效果</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>敌人</Filter>
+    </ClInclude>
+    <ClInclude Include="Core.h">
+      <Filter>核心（技能）</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemySkill.h">
+      <Filter>敌方技能</Filter>
+    </ClInclude>
+    <ClInclude Include="BOSS.h">
+      <Filter>精英怪/BOSS</Filter>
+    </ClInclude>
+    <ClInclude Include="敌人预设.h">
+      <Filter>关卡\敌人预设</Filter>
+    </ClInclude>
+    <ClInclude Include="Fight.h">
+      <Filter>关卡\战斗</Filter>
+    </ClInclude>
+    <ClInclude Include="关卡预设.h">
+      <Filter>关卡\关卡预设</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>功能性</Filter>
+    </ClInclude>
+    <ClInclude Include="事件.h">
+      <Filter>关卡\事件</Filter>
+    </ClInclude>
+    <ClInclude Include="Bussiness.h">
+      <Filter>关卡\事件\Bussiness</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="功能性函数.cpp">
+      <Filter>功能性</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerFunction.cpp">
+      <Filter>玩家</Filter>
+    </ClCompile>
+    <ClCompile Include="BackpackFunction.cpp">
+      <Filter>背包</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemInformation.cpp">
+      <Filter>背包</Filter>
+    </ClCompile>
+    <ClCompile Include="BuffFunction.cpp">
+      <Filter>效果</Filter>
+    </ClCompile>
+    <ClCompile Include="playerBuff.cpp">
+      <Filter>玩家</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerUseItem.cpp">
+      <Filter>玩家</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyBuff.cpp">
+      <Filter>敌人</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyFunction.cpp">
+      <Filter>敌人</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerActive.cpp">
+      <Filter>玩家</Filter>
+    </ClCompile>
+    <ClCompile Include="CoreFunction.cpp">
+      <Filter>核心（技能）</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerUseCore.cpp">
+      <Filter>玩家</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyActive.cpp">
+      <Filter>敌人</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemySkillFunction.cpp">
+      <Filter>敌方技能</Filter>
+    </ClCompile>
+    <ClCompile Include="BOSSFunction.cpp">
+      <Filter>精英怪/BOSS</Filter>
+    </ClCompile>
+    <ClCompile Include="BOSSUseSkill.cpp">
+      <Filter>精英怪/BOSS</Filter>
+    </ClCompile>
+    <ClCompile Include="BOSSActive.cpp">
+      <Filter>精英怪/BOSS</Filter>
+    </ClCompile>
+    <ClCompile Include="普通敌人预设.cpp">
+      <Filter>关卡\敌人预设</Filter>
+    </ClCompile>
+    <ClCompile Include="精英敌人预设.cpp">
+      <Filter>关卡\敌人预设</Filter>
+    </ClCompile>
+    <ClCompile Include="BOSS预设.cpp">
+      <Filter>关卡\敌人预设</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGameLevel.cpp">
+      <Filter>关卡\关卡预设</Filter>
+    </ClCompile>
+    <ClCompile Include="Fight.cpp">
+      <Filter>关卡\战斗</Filter>
+    </ClCompile>
+    <ClCompile Include="Level1_1TextFile.cpp">
+      <Filter>关卡\关卡预设\Level1_1</Filter>
+    </ClCompile>
+    <ClCompile Include="Level1_1.cpp">
+      <Filter>关卡\关卡预设\Level1_1</Filter>
+    </ClCompile>
+    <ClCompile Include="MeetTreature.cpp">
+      <Filter>关卡\事件</Filter>
+    </ClCompile>
+    <ClCompile Include="MeetBussiness.cpp">
+      <Filter>关卡\事件</Filter>
+    </ClCompile>
+    <ClCompile Include="Bussiness.cpp">
+      <Filter>关卡\事件\Bussiness</Filter>
+    </ClCompile>
+    <ClCompile Include="Upgrade.cpp">
+      <Filter>关卡\事件</Filter>
+    </ClCompile>
+    <ClCompile Include="Level1_2.cpp">
+      <Filter>关卡\关卡预设\Level1_2</Filter>
+    </ClCompile>
+    <ClCompile Include="Level1_2TextFile.cpp">
+      <Filter>关卡\关卡预设\Level1_2</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Art of Nature.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
